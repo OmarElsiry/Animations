@@ -1,6 +1,7 @@
 
 
 // rope_simulation/rope_simulation_page.dart
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
