@@ -6,6 +6,9 @@
 
 A mesmerizing rope simulation project built with Flutter, featuring interactive physics and dynamic lighting effects.
 
+https://github.com/user-attachments/assets/ee573402-b578-46f6-bfc0-7f7ec5c1c5f1
+
+
 ## 🌟 Features
 
 - 🧵 Real-time rope physics simulation
@@ -52,8 +55,7 @@ A mesmerizing rope simulation project built with Flutter, featuring interactive 
 ## 🧩 Project Structure
 
 ```
-lib/
-├── main.dart
+
 └── rope_simulation/
     ├── rope_simulation_page.dart
     ├── rope_painter.dart
@@ -92,5 +94,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Made with ❤️ and Flutter
 
 
-https://github.com/user-attachments/assets/ee573402-b578-46f6-bfc0-7f7ec5c1c5f1
 
