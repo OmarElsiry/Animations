@@ -32,6 +32,7 @@ class RopeSimulationPageState extends State<RopeSimulationPage>
 
   Future<void> _loadLightImage() async {
     try {
+      // todo add image of light for more effects
       final ByteData data =
           await DefaultAssetBundle.of(context).load('assets/light.png');
       final codec = await ui.instantiateImageCodec(data.buffer.asUint8List());
