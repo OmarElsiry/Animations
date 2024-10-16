@@ -1,1 +1,21 @@
-i am Making github readme to add some blocks of code that I will use later in so many little projects now I want you to add this could later I will add more but just I want to make a read me that I can use later you might add a screenshot if you want or something that exemplines the code more MaterialApp( scrollBehavior: const MaterialScrollBehavior().copyWith( dragDevices: { PointerDeviceKind.mouse, PointerDeviceKind.touch, PointerDeviceKind.stylus, PointerDeviceKind.unknown }, ),
+# My Code Snippets Repository
+
+Welcome to my repository of reusable code snippets! Here, I will document various code blocks that I frequently use in my projects.
+
+## Flutter MaterialApp Scroll Behavior
+
+This code snippet demonstrates how to customize the scroll behavior in a Flutter `MaterialApp`. It allows scrolling with different types of input devices such as mouse, touch, and stylus.
+
+### Code Snippet
+
+```dart
+MaterialApp(
+  scrollBehavior: const MaterialScrollBehavior().copyWith(
+    dragDevices: {
+      PointerDeviceKind.mouse,
+      PointerDeviceKind.touch,
+      PointerDeviceKind.stylus,
+      PointerDeviceKind.unknown,
+    },
+  ),
+)
